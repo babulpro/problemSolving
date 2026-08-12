@@ -8,16 +8,16 @@
 // countPositive([2, -5, 7, -1, 0, 9])
 // Output: 3
 
-// function countPositive(numbers){
-//     let count =0
+function countPositive(numbers){
+    let count =0
 
-//     for(let number of numbers){
-//         if(number > 0){
-//             count ++
-//         }
-//     }
-//     return count
-// }
+    for(let number of numbers){
+        if(number > 0){
+            count ++
+        }
+    }
+    return count
+}
  
 
 // console.log(countPositive([2, -5, 7, -1, 0, 9]))
@@ -48,7 +48,7 @@ function findSmallest(numbers){
     return smallest
 }
 
-console.log(findSmallest([8, 3, 12, 6]))
-console.log(findSmallest([8, 6]))
-console.log(findSmallest([8,5, 6]))
+// console.log(findSmallest([8, 3, 12, 6]))
+// console.log(findSmallest([8, 6]))
+// console.log(findSmallest([8,5, 6]))
  
